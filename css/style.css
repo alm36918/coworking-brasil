@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+h1 {
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-texto p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-texto a {
+    background-color: rgb(78, 160, 228);
+    color: white;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 18px;
+    margin: 50px;
+}
+
+.div-texto{
+    /* border: 1px solid red;  */
+    position: absolute;
+    bottom: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.div-cards{
+    /* border: 1px solid blue; */
+    margin: 50px;
+}
+
+.card-text{
+    color: rgb(46, 46, 46);
+}
+
+#img-cabecalho{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary{
+    background-color: cornflowerblue;
+    border: none;
+    margin: 30px;
+    width: fit-content;
+}
+
+.btn-primary:hover{
+    background-color: rgb(61, 134, 244);
+    transform: scale(1.05);
+}
+
+.card-img-top:hover{
+    transform: scale(1.02);
+}
+
+
+.fundo-carrossel{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(61, 134, 244);
+}
+
+.div-planos{
+    margin: 50px;
+}
+
+.card-title{
+    color: rgb(62, 62, 62);
+}
